@@ -6,6 +6,10 @@ There's a frood who really knows where his towel is.
 1.0a12 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+- Fix issue where page composition layer had side-effects outside cover pages by upgrading plone.app.blocks to 2.0 (fixes `#331`_);
+  drop support for Plone 4.2.
+  [datakurre]
+
 - Create format options for datetime widget (closes `#534`_).
   [rodfersou]
 
@@ -634,6 +638,7 @@ There's a frood who really knows where his towel is.
 .. _`#317`: https://github.com/collective/collective.cover/issues/317
 .. _`#318`: https://github.com/collective/collective.cover/issues/318
 .. _`#323`: https://github.com/collective/collective.cover/issues/323
+.. _`#331`: https://github.com/collective/collective.cover/issues/331
 .. _`#333`: https://github.com/collective/collective.cover/issues/333
 .. _`#339`: https://github.com/collective/collective.cover/issues/339
 .. _`#342`: https://github.com/collective/collective.cover/issues/342
