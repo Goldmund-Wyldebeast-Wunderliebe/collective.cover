@@ -151,7 +151,7 @@ class TestTextLinesSortableWidget(unittest.TestCase):
 
         self.assertDictEqual(extracted_value, expected)
 
-        # Test with weird line separators \n\n in IE11 for the uuids.
+        # Test with weird line separators \n\n in IE11 for the uuids
         self.request.set(name, u'\n\n'.join(uuids))
 
         extracted_value = widget.extract()
